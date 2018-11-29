@@ -6,7 +6,10 @@ public class Static_instance {
 	static int x;
 	
 	static int y;
-
+	static int p;
+	
+	int teddy=500;
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -17,6 +20,14 @@ public class Static_instance {
 		System.out.println("value of variable ="+ x);
 		
 		System.out.println("value of variable ="+ y);
+		/*
+		static int p=13;  //again static connect be assigned to p. P can be of final typee
+		System.out.println("value of variable ="+ p); 
+		*/
+		
+		/*
+		System.out.println("value of variable ="+ teddy);  // static method cannot access non-static variables
+		*/
 	}
 
 }
