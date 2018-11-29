@@ -22,3 +22,14 @@ public class SOP_Question {
 	}
 
 }
+
+/*
+
+Output-
+	12-Hellow World
+	6-Hellow World
+	0-Hellow World
+	12-Hellow World
+	Hellow world-34.3
+	70.3-Hellow world
+*/
