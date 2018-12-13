@@ -13,7 +13,7 @@ public class Display_Fibbonacci_Series {
 		n=sc.nextInt();
 		while(fab<=n)
 		{
-			System.out.println(fab);
+			System.out.print(fab+ " ");
 			
 			fab=a+b;
 			a=b;
