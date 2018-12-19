@@ -18,6 +18,11 @@ public class StringReverse {
 			reverse= reverse+ s.charAt(i);
 		}
 		System.out.println("String after reverse = "+ reverse);
+		
+		if(s.equalsIgnoreCase(reverse))
+			System.out.println("Palindome");
+		else
+			System.out.println("Not a palindrome");
 
 	}
 
