@@ -12,8 +12,10 @@ public class StringReverse {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter String to be reversed= ");
 		s=sc.nextLine();
-			
-		for(int i=s.length()-1; i>=0;i--)
+		int Stringlength= s.length();
+		System.out.println("Length of String is : "+ Stringlength); 
+		
+		for(int i=s.length()-1; i>=0;i--)    // String index start from zero. That's y length-1.
 		{
 			reverse= reverse+ s.charAt(i);
 		}
@@ -23,6 +25,13 @@ public class StringReverse {
 			System.out.println("Palindome");
 		else
 			System.out.println("Not a palindrome");
+		
+		// OR Using StringBuffer and builder class
+		
+		System.out.println("*************");
+		
+		StringBuffer sb= new StringBuffer(s);
+		System.out.println("Reversed String is : " +sb.reverse());
 
 	}
 
