@@ -14,8 +14,9 @@ public class Display_Fibbonacci_Series {
 		//while(fab<=n)
 		for( int i=0; i<=n;i++)
 		{
+
 			System.out.print(fab + " ");
-			
+		
 			fab=a+b;
 			a=b;
 			b=fab;

@@ -10,6 +10,12 @@ public class Sum_Of_Array_diagonal_elements {
 							{4,5,6},
 								{7,8,9},
 										};
+	/*	int[][] arr= new int[][]{
+				{1,2,3},
+				{4,5,6},
+				{7,8,9}
+						};
+	*/	
 		int size=arr.length;
 		System.out.println("Size of Array=" + size);
 		for(int row=0; row<arr.length; row++)
