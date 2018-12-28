@@ -1,6 +1,9 @@
 package stringPrograms;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class Find_Duplicate_Elements_In_Array {
@@ -30,6 +33,30 @@ public class Find_Duplicate_Elements_In_Array {
 			if(store.add(name)==false)
 			{
 				System.out.println("Duplicate Element : "+ name);
+			}
+		}
+		
+		System.out.println("***********");
+		
+		
+		//3. Using HashMap: 
+		Map<String, Integer> storeMap= new HashMap<String, Integer>();
+		
+		for(String name : arr){
+			Integer count= storeMap.get(name);
+			if(count == null){
+				storeMap.put(name, 1);
+			}
+			else{
+				storeMap.put(name, ++count);
+			}
+		}
+		
+		// get the values from the HashMap
+		Set<Entry<String, Integer>> entrySet= storeMap.entrySet();
+		for(Entry<String, Integer> entry: entrySet){
+			if(entry.getValue()>1){
+				System.out.println("Duplicate Element : "+entry.getKey());
 			}
 		}
 		
