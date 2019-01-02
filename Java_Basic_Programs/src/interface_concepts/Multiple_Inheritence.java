@@ -1,4 +1,4 @@
-package interface_concepts;
+  package interface_concepts;
 
 // The Java compiler adds public and abstract keywords
 // before the interface met hod. Moreover, it adds public, static and final keywords before data members.
@@ -8,7 +8,6 @@ interface Pintable{
 
 interface Showable{
 	abstract void show();
-	int Min= 123;
 }
 
 public class Multiple_Inheritence implements Pintable, Showable {
@@ -21,8 +20,6 @@ public class Multiple_Inheritence implements Pintable, Showable {
 		Multiple_Inheritence m1 = new Multiple_Inheritence();
 		m1.print();
 		m1.show();
-		System.out.println(m1.Min);
-
 	}
 
 }
