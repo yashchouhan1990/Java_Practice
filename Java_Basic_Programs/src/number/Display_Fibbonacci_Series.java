@@ -12,10 +12,10 @@ public class Display_Fibbonacci_Series {
 		System.out.println("Enter the range of the Fibbonacci series");
 		n=sc.nextInt();
 		//while(fab<=n)
-		for( int i=0; i<=n;i++)
+		for( int i=1; i<=n;i++)
 		{
 
-			System.out.print(fab + " ");
+			System.out.print(a + " ");
 		
 			fab=a+b;
 			a=b;
