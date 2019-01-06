@@ -1,10 +1,10 @@
 package interface_concepts;
 
- interface Printable{
+ interface Printable123{
 	 void print();
 }
 
- class Iterface_demo implements Printable {
+ class Iterface_demo implements Printable123 {
 	 public void print() 
 	 {
 		System.out.println("Hello"); 
@@ -16,3 +16,10 @@ package interface_concepts;
 		 demo.print();
 	 }
  }
+
+ /*
+ Output-
+
+Hello
+
+ */
