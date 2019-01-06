@@ -26,7 +26,6 @@ public class Reverse_all_words_keep_sentence_same {
 		System.out.println("String after reverse: "+reversestring);
 	}
 }
-
 /*
 Output- 
 Original String :My name is yash chouhan
