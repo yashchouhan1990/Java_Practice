@@ -20,6 +20,11 @@ public class Reverse_Of_Number {
 	
 		System.out.println("Reverse of number = "+rev);
 		sc.close();
+		
+		// other approach
+		
+		long n1= 123456;
+		System.out.println(new StringBuffer(String.valueOf(n1)).reverse());
 	}
 
 }
