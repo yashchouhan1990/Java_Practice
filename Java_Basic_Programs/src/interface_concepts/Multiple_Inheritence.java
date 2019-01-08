@@ -10,9 +10,8 @@ interface Showable{
 	abstract void show();
 }
 
- class test implements Printable{
+ class test implements Pintable{
 
-	@Override
 	public void print() {
 		String str= "This class has implemented an interface adn overriden a method";
 		System.out.println(str);
