@@ -17,5 +17,22 @@ Shape s=new Circle1();//In a real scenario, object is provided through method, e
 Shape s1= new Rectangle();
 s.draw();  
 s1.draw();
+
+System.out.println("***********");
+// Another way to use draw methods
+Circle1 c1= new Circle1();
+c1.draw();
+
+Rectangle r1 = new Rectangle();
+r1.draw();
 }  
 }  
+
+/*
+drawing circle
+drawing rectangle
+***********
+drawing circle
+drawing rectangle
+
+*/

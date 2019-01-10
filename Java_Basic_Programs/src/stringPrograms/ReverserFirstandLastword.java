@@ -22,8 +22,5 @@ public class ReverserFirstandLastword {
 		{
 			System.out.print(arr[i]+" ");
 		}
-		
-
 	}
-
 }

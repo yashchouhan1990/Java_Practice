@@ -28,7 +28,7 @@ public class StringReverse {
 		else
 			System.out.println("Not a palindrome");
 		
-		// 2. Sung string builder or string buffer clas
+		// 2. Sung stringBuilder or stringBuffer class
 		// OR Using StringBuffer and builder class
 		
 		System.out.println("*************");

@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Scanner;
-
 public class Pattern_1_Print_rows_columns {
 
 	public static void main(String[] args) {

@@ -18,3 +18,9 @@ abstract class Bike{
 }
 
 
+/*
+ 
+ Output-
+ Bike is running
+ 
+ */

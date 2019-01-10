@@ -20,7 +20,7 @@ public class UserdefinedObjArrayList {
 		arlst.add(s3);
 		
 		//System.out.println(arlst);
-		Iterator itr= arlst.iterator();
+		Iterator<Student> itr= arlst.iterator();
 		while(itr.hasNext())
 		{
 			Student st=(Student)itr.next();

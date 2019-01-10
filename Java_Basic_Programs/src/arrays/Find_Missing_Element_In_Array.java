@@ -6,7 +6,7 @@ public class Find_Missing_Element_In_Array {
 		// TODO Auto-generated method stub
 		
 		
-		int arr[]= {1,2,3,4,6,7,8,9,10};
+		int arr[]= {1,2,3,4,6,7,8,9,10};    // 5 is missing
 		int sum=0, actualsum=0;
 		
 		for(int i=0; i<arr.length; i++)

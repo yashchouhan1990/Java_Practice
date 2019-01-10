@@ -18,12 +18,16 @@ public class Find_Smallest_And_Larget_No_In_Araay {
 			else if(arr[i]<smallest)
 				smallest=arr[i];
 		}
-		
 		System.out.println("Given array is : "+ Arrays.toString(arr));
 		System.out.println("Smallest Number is : "+smallest);
 		System.out.println("Largest Number is : "+largest);
 	}
-
 }
 
+/*
+Output-
+Given array is : [12, 3, 4, -88, 79, 456]
+Smallest Number is : -88
+Largest Number is : 456
 
+*/
