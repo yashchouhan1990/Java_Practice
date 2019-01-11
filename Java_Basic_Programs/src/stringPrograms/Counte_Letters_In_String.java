@@ -4,7 +4,7 @@ public class Counte_Letters_In_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str= "I am Lord ";
+		String str= "I am Lord";
 		int count=0;
 		int space=0;
 		char[] ch= str.toCharArray();
