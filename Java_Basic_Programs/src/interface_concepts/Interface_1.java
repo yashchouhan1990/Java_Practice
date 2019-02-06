@@ -14,7 +14,6 @@ class Rectangle implements Drawable{
 
 class Circle implements Drawable{
 	public void draw() {
-		// TODO Auto-generated method stub
 		System.out.println("Drawing a Circle");
 	}
 }
@@ -35,7 +34,6 @@ public class Interface_1  {
 
 /*
 Output-
-
 Drawing a Circle
 *********
 Drawing a Rectangle

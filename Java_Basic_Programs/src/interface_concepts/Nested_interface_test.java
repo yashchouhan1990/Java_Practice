@@ -31,5 +31,4 @@ public class Nested_interface_test implements Printable_1 {
 Output-
 print pictures
 Implemented nested interface method
-
 */

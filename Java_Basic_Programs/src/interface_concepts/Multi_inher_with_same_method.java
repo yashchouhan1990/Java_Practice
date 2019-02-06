@@ -15,19 +15,13 @@ public class Multi_inher_with_same_method implements Printable_new, Showable_new
 		System.out.println("Implementation of Same method in different interfaces is provided in this class");
 	}
 	
-	public static void main(String args[])
-	{
+	public static void main(String args[])	{
 		Multi_inher_with_same_method m1= new Multi_inher_with_same_method();
 		m1.print();
-		
 	}
-
 }
-
-
 /*
 Output-
-
 Implementation of Same method in different interfaces is provided in this class
 */
 
