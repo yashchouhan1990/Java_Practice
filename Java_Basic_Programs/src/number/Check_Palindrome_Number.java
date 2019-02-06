@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Check_Palindrome_Number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		int n,rem,rev=0, temp;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter any number to check its a Palindrome Number = ");

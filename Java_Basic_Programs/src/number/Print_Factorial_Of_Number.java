@@ -18,9 +18,7 @@ public class Print_Factorial_Of_Number {
 		}
 		System.out.println("Factorial of a Number = " +fact);
 		sc.close();
-
 	}
-
 }
 /* 
 OutPut-

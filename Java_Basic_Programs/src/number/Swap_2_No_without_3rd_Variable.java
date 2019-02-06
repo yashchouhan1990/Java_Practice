@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Swap_2_No_without_3rd_Variable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int a, b;
 		Scanner sc= new Scanner (System.in);
 		System.out.println("Enter First Number: ");
@@ -24,10 +22,7 @@ public class Swap_2_No_without_3rd_Variable {
 		System.out.println("Number's after Swapping :");
 		System.out.println("First No = "+a +" Second No = "+b);
 	}
-
 }
-
-
 /*
 Output-
 

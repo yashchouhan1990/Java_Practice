@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Display_Fibbonacci_Series {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		int fab=0, a=0, b=1, n;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the range of the Fibbonacci series");
@@ -14,9 +12,7 @@ public class Display_Fibbonacci_Series {
 		//while(fab<=n)
 		for( int i=1; i<=n;i++)
 		{
-
 			System.out.print(a + " ");
-		
 			fab=a+b;
 			a=b;
 			b=fab;

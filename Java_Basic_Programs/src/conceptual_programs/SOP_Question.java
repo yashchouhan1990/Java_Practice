@@ -18,18 +18,16 @@ public class SOP_Question {
 		System.out.println("Hellow world-"+ 3+ 4.3f);
 		
 		System.out.println(30+ 40.3f +"-Hellow world");
-
 	}
-
 }
-
 /*
-
 Output-
-	12-Hellow World
-	6-Hellow World
-	0-Hellow World
-	12-Hellow World
-	Hellow world-34.3
-	70.3-Hellow world
+Hellow World-345
+12-Hellow World
+6-Hellow World
+0-Hellow World
+12-Hellow World
+Hellow world-34.3
+70.3-Hellow world
+
 */

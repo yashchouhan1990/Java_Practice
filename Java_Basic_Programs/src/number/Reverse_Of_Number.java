@@ -21,7 +21,6 @@ public class Reverse_Of_Number {
 		System.out.println("Reverse of number = "+rev);
 		sc.close();
 	}
-
 }
 
 /* 

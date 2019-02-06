@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Print_Prime_Numbers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int n,range, flag;
 		Scanner sc=new Scanner (System.in);
 		System.out.println("Enter the range of Prime Numbers to be Printed ");
@@ -29,11 +27,8 @@ public class Print_Prime_Numbers {
 				System.out.print(n +" ");
 			}
 		}	
-		
 		sc.close();
-	
 	}
-
 }
 
 /*

@@ -8,6 +8,7 @@ public class Hackathon {
 		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter any number 3 times");
 		int input1 = scanner.nextInt();
 		int input2 = scanner.nextInt();
 		int input3 = scanner.nextInt();
@@ -19,3 +20,13 @@ public class Hackathon {
 	}
 
 }
+/*
+output-
+Enter any number 3 times
+2
+3
+4
+2
+3
+4
+*/
