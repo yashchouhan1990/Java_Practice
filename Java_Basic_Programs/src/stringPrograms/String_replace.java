@@ -8,7 +8,8 @@ public class String_replace {
 		
 		str=str.replaceAll(sub, " ");
 		System.out.println("Output : "+ str.trim());
-
 	}
-
 }
+/*
+Output : I LOVE JAVA
+*/

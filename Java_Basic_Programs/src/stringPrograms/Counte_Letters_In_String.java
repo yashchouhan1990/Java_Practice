@@ -10,21 +10,16 @@ public class Counte_Letters_In_String {
 		char[] ch= str.toCharArray();
 		System.out.println("Total length of String is : " +ch.length);
 		for(int i=0; i<ch.length; i++){
-			
-			if(ch[i] != ' ')
-			{
+			if(ch[i] != ' ')	{
 				count++;
 				//System.out.println(ch[i]);
 			}
-			else
-			{
+			else	{
 				space++;
 			}
 		}
-		
 		System.out.println("Number of letters in String is : "+count);
 		System.out.println("Number of Spaces in String is : "+space);
-
 	}
 }
 

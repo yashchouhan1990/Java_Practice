@@ -15,7 +15,13 @@ public class String_Case_Change {
 		
 		System.out.println("String in Uppercase ::" +str.toUpperCase());
 		System.out.println("String in lowercase ::" + str.toLowerCase());
-
+		sc.close();
 	}
-
 }
+/*
+ Output-
+Enter any String
+Automation
+String in Uppercase ::AUTOMATION
+String in lowercase ::automation
+*/

@@ -59,8 +59,16 @@ public class Find_Duplicate_Elements_In_Array {
 				System.out.println("Duplicate Element : "+entry.getKey());
 			}
 		}
-		
-
 	}
-
 }
+/*
+Output-
+Duplicate Element : java
+Duplicate Element : C
+***********
+Duplicate Element : C
+Duplicate Element : java
+***********
+Duplicate Element : java
+Duplicate Element : C
+*/

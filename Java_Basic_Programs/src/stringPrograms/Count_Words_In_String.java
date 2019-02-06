@@ -10,7 +10,7 @@ public class Count_Words_In_String {
 		System.out.println("No of words in String is: "+ length);
 		System.out.println("******");
 		
-		//2. Traversing and cheecking
+		//2. Traversing and checking
 		char[] ch= new char[str.length()];
 		for(int i=0; i < str.length(); i++)
 		{

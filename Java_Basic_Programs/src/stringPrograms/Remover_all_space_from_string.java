@@ -20,7 +20,7 @@ public class Remover_all_space_from_string {
 	System.out.println("String after removing space: ");
 	for(int i=0; i<arraySting.length; i++){
 		System.out.print(arraySting[i]);
-	}
+    	}
 	}
 }
 

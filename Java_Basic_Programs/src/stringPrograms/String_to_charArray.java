@@ -28,5 +28,4 @@ Length of char array : 19
  Character at specific positing in String : e
 learningJavabyMyOwn
 
-
 */
