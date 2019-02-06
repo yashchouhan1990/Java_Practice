@@ -43,5 +43,21 @@ public class Pattern_2_half_triangle {
 			System.out.println();
 		}
 	}
-
 }
+/*
+Output-
+ Print all the rows of the matrix
+*
+**
+***
+-----------------------------
+*
+**
+***
+-----------------------------
+ Print all the columns of the matrix
+00 01 02 
+10 11 12 
+20 21 22 
+
+*/

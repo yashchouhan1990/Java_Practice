@@ -11,8 +11,7 @@ public class Find_Smallest_And_Larget_No_In_Araay {
 		int smallest= arr[0];
 		int largest= arr[0];
 		//System.out.println(arr.length);
-		for (int i=1; i<arr.length;i++)
-		{
+		for (int i=1; i<arr.length;i++)		{
 			if(arr[i]>largest)
 				largest=arr[i];
 			else if(arr[i]<smallest)

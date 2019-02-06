@@ -26,15 +26,12 @@ public class Input_arrayMatrix_from_user {
 		{
 			for(col=0;col<arr.length;col++)
 			{
-				System.out.print(arr[row][col]+ " ");
+				System.out.print(arr[row][col]+ " ");        // Printing in the same line
 			}
 			System.out.println();
 		}
-			
 	}
-
 }
-
 /*
  Output-
  

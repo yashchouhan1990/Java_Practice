@@ -27,28 +27,21 @@ public class Sum_Of_Array_diagonal_elements {
 				{
 					//System.out.print("Left Diagonal element is "+arr[row][col]);
 					lsum=lsum+arr[row][col];
-					
 				}
 				else if((row+col)==(size-1))
 				{
 					//System.out.print("Right Diagonal element is "+arr[row][col]);
 					rsum= rsum + arr[row][col];
-					
 				}
-				
 			}
 			System.out.println();
 		}
-		
 		System.out.println();
 		System.out.println("Sum of left Diagonal elements="+lsum); 
 		System.out.println("Sum of right Diagonal elements="+rsum);
 		System.out.println("Sum of both diagonals="+(lsum+rsum));
-		
 	}
-
 }
-
 /*
 Output-
 Size of Array=3
