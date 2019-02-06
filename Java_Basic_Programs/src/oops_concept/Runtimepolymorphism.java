@@ -12,7 +12,7 @@ public class Runtimepolymorphism extends bike{
 	
 	void run()
 	{
-		System.out.println("Method of Runtimepolymorphism class is called");
+		System.out.println(" run Method of Runtimepolymorphism class is called");
 	}
 	
 	public static void main(String []args)
@@ -21,3 +21,6 @@ public class Runtimepolymorphism extends bike{
 		b1.run();
 	}
 }
+/*
+run Method of Runtimepolymorphism class is called
+*/

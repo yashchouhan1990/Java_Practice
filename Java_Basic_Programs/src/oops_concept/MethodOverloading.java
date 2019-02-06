@@ -3,11 +3,13 @@ package oops_concept;
 public class MethodOverloading {
 
 	// 1. normal Methods
-	int testOverloading(int a, int b)
-		{		return a+b;	}
+	int testOverloading(int a, int b)	{
+		System.out.println("Method with 2 parameters is called");
+		return a+b;	}
 	
-	int testOverloading(int a, int b, int c)
-		{		return a+b+c;	}
+	int testOverloading(int a, int b, int c)	{
+		System.out.println("Method with 3 parameters is called");
+		return a+b+c;	}
 	  
 	public static void main(String args[])
 	{
@@ -18,6 +20,11 @@ public class MethodOverloading {
      }
 	
 }
-
+/*
+Method with 2 parameters is called
+100
+Method with 3 parameters is called
+60
+*/
 
 

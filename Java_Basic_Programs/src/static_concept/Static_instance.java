@@ -4,15 +4,12 @@ public class Static_instance {
 
 	static int test;
 	static int x;
-	
 	static int y;
 	static int p;
 	
 	int teddy=500;
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		int test=10;
 		System.out.println("value of variable ="+test);
 

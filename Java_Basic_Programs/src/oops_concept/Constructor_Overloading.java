@@ -5,19 +5,19 @@ public class Constructor_Overloading {
 	// Its not a good example-- check constructor student overloading example
 	
 	public Constructor_Overloading(int x, int y) {
-		System.out.println("Sum of tow number is : "+(x+y));
+		System.out.println("Sum of two number is : "+(x+y));
 	}
 	
 	public Constructor_Overloading(int x, int y, int z) {
-		System.out.println("Sum of tow number is : "+(x+y+z));
+		System.out.println("Sum of three number is : "+(x+y+z));
 	}
 	// Private constructor
 	private Constructor_Overloading(int x, int y, int z, int a) {
-		System.out.println("Sum of tow number is : "+(x+y+z+a));
+		System.out.println("Sum of four number is : "+(x+y+z+a));
 	}
 	
 	protected Constructor_Overloading(int x, int y, int z, int a, int b) {
-		System.out.println("Sum of tow number is : "+(x+y+z+a+b));
+		System.out.println("Sum of five number is : "+(x+y+z+a+b));
 	}
 	
 	public static void main(String[] args) {
@@ -32,10 +32,8 @@ public class Constructor_Overloading {
 /*
  *
 Output-
-Sum of tow number is : 30
-Sum of tow number is : 60
-Sum of tow number is : 100
-Sum of tow number is : 150
- * 
- * 
- * */
+Sum of two number is : 30
+Sum of three number is : 60
+Sum of four number is : 100
+Sum of five number is : 150
+ */
