@@ -1,23 +1,33 @@
 package stringPrograms;
 public class Count_Words_In_String {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//String str= "welcome to candid java tutorial";      // Note; There should be black space in start of String
-		String str= "I L U V M ";
+		
+		String str= "I Love you very much..";
 		int count=0;
-		for(int i=0; i < str.length()-1; i++)
+		System.out.println(str);
+		// 1. Easy trick to count words in String 
+		int length=str.split(" ").length;
+		System.out.println("No of words in String is: "+ length);
+		System.out.println("******");
+		
+		//2. Traversing and checking
+		char[] ch= new char[str.length()];
+		for(int i=0; i < str.length(); i++)
 		{
-			System.out.println(str.charAt(i));
-			if ((str.charAt(i) != ' ') && (str.charAt(i+1) == ' '))
+			ch[i]= str.charAt(i);
+			 if( ((i>0)&&(ch[i]!=' ')&&(ch[i-1]==' ')) || ((ch[0]!=' ')&&(i==0)) )  
 			{
 				count++;
 			}
 		}
-	System.out.println("Number of words in a string = " + count);
+	System.out.println("Number of words in string = " + count);
 	}
 }
 
 /*
 Output-
-Number of words in a string = 5
+I Love you very much..
+No of words in String is: 5
+******
+Number of words in string = 5
 */

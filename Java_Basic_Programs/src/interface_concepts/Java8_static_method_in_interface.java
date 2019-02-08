@@ -8,7 +8,6 @@ interface Drawable_sample{
 }
 
 class Rectangle_sample implements Drawable_sample{
-
 	@Override
 	public void draw() {
 		System.out.println("Drawing Rectangle");

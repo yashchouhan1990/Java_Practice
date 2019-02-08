@@ -6,8 +6,6 @@ import java.util.Iterator;
 public class ArrayListtest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 	//	ArrayList arylist= new ArrayList();
 		ArrayList<String> al= new ArrayList<String>();
 		al.add("Yash");
@@ -18,16 +16,14 @@ public class ArrayListtest {
 /*
 * output- [Yash, Harsh, Anil]
 */
-		
 	// traverse ArrayList elements using the Iterator interface
-		Iterator itr= al.iterator();
+		Iterator<String> itr= al.iterator();
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
 		}
 /*
- * Output-
-
+ Output-
 Yash
 Harsh
 Anil
@@ -41,16 +37,12 @@ Anil
 		}
 		
 /*
- * Output-
+ Output-
 Traversing list through for-each loop
 Yash
 Harsh
 Anil
  * 		
  */
-		
-		
-		
 	}
-
 }

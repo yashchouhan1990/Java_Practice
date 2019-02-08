@@ -12,7 +12,6 @@ public class ReverserFirstandLastword {
 		System.out.println("Enter any String = ");
 		str=sc.nextLine();
 		String arr[]=str.split(" ");
-		int length=arr.length;
 		
 		String temp=arr[0];
 		arr[0]=arr[arr.length-1];
@@ -22,8 +21,12 @@ public class ReverserFirstandLastword {
 		{
 			System.out.print(arr[i]+" ");
 		}
-		
-
+		sc.close();
 	}
-
 }
+/*
+Output-
+Enter any String = 
+My name is Yash Chouhan
+Chouhan name is Yash My 
+*/

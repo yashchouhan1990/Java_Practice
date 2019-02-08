@@ -9,7 +9,6 @@ interface Showable_new1 extends Printable_new1{
 }
 
 public class Interface_inheritance implements Showable_new1  {
-	
 	@Override
 	public void print() {
 		System.out.println("Hi");
@@ -25,14 +24,10 @@ public class Interface_inheritance implements Showable_new1  {
 		iit.print();
 		iit.show();
 	}
-	
 }
 
 /*
 Output-
-
 Hi
 hello
-
-
 */

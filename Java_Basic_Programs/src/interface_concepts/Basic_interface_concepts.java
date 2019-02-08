@@ -21,15 +21,14 @@ public class Basic_interface_concepts implements Drawable_basic {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		// Drawable_basic db= new Drawable_basic();   -- interface cannot be instantiated.
 		Drawable_basic db= new Basic_interface_concepts();       // This works
 		db.draw();
 		Basic_interface_concepts bcs= new Basic_interface_concepts();   // This works
 		bcs.draw();
 	}
-
-
-
 }
+/*
+drawing a scenary
+drawing a scenary
+*/

@@ -28,8 +28,7 @@ public class StringReverse {
 		else
 			System.out.println("Not a palindrome");
 		
-		// 2. Sung string builder or string buffer clas
-		// OR Using StringBuffer and builder class
+		// 2. using stringBuilder or stringBuffer class
 		
 		System.out.println("*************");
 		
@@ -49,7 +48,21 @@ public class StringReverse {
 			if(s.charAt(i) != s.charAt(Stringlength-i-1))
 				System.out.println( "Not a palindrome");
 		}
-		System.out.println("Palindome");
+		System.out.println("Palindrome");
 	}
 
 }
+/*
+Output-
+Enter String to be reversed= 
+sys
+Length of String is : 3
+String after reverse = sys
+Palindrome
+*************
+Reversed String is : sys
+#################
+Length of String is : 3
+1
+Palindrome
+*/

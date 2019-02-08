@@ -29,10 +29,8 @@ public class Check_PrimeNo {
 			{
 				System.out.println("Its Not a Prime Number");
 			}
-		
 		sc.close();
 	}
-
 }
 
 /* 

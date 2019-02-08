@@ -5,29 +5,24 @@ import java.util.Scanner;
 public class Swap_2_No_without_3rd_Variable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int n1, n2;
+		int a, b;
 		Scanner sc= new Scanner (System.in);
 		System.out.println("Enter First Number: ");
-		n1= sc.nextInt();
+		a= sc.nextInt();
 		System.out.println("Enter Second Number: ");
-		n2=sc.nextInt();
+		b=sc.nextInt();
 		sc.close();
 		System.out.println("Number's before Swapping : ");
-		System.out.println("First No = "+n1 +" Second No = "+n2);
+		System.out.println("First No = "+a +" Second No = "+b);
 		
-		n1=n1+n2;
-		n2=n1-n2;
-		n1=n1-n2;
-				
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("***********");
 		System.out.println("Number's after Swapping :");
-		System.out.println("First No = "+n1 +" Second No = "+n2);
+		System.out.println("First No = "+a +" Second No = "+b);
 	}
-
 }
-
-
 /*
 Output-
 

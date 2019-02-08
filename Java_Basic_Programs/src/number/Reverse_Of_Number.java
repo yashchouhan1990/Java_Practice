@@ -26,7 +26,6 @@ public class Reverse_Of_Number {
 		long n1= 123456;
 		System.out.println(new StringBuffer(String.valueOf(n1)).reverse());
 	}
-
 }
 
 /* 

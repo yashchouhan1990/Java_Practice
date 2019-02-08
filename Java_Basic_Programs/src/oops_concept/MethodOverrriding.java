@@ -20,9 +20,11 @@ package oops_concept;
 	 {
 		MethodOverrriding v=new MethodOverrriding();
 		v.run();
-		 
 	 }
  }
-
+/*
+ Bike is running
+ */
+ 
 	
 

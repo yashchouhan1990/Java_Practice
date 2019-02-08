@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Scanner;
-
 public class Pattern_1_Print_rows_columns {
 
 	public static void main(String[] args) {
@@ -21,7 +19,7 @@ public class Pattern_1_Print_rows_columns {
 		
 		System.out.println("-----------------------------");
 		
-		// Print all the col of the matrix
+		// Print all the columns of the matrix
 		System.out.println(" Print all the columns of the matrix");
 		for(row=0;row<length;row++)
 		{

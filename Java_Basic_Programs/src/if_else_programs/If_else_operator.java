@@ -10,7 +10,6 @@ public class If_else_operator {
 	            second = 2;
 	     //   System.out.println("y is " + second);
 	    }
-
 }
 
 /*
