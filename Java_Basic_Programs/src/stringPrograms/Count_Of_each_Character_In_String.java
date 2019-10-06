@@ -2,6 +2,8 @@ package stringPrograms;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
 
 public class Count_Of_each_Character_In_String {
 
@@ -26,8 +28,20 @@ public class Count_Of_each_Character_In_String {
 				map.put(c, 1);
 			}
 		}	
+
 			for(Map.Entry entry : map.entrySet()){
 				System.out.println(entry.getKey()+ " " +entry.getValue());
+			}
+
+			// Print the Non-repeated character from string
+			System.out.println("**Print the Non-repeated character from string**");
+			for (Map.Entry entry1 : map.entrySet())
+			{ 
+				int n=(int) entry1.getValue();
+				if (n==1)
+				{
+					System.out.println("Non repeated character is : "+entry1.getKey());
+				}
 			}
 		
 	}
@@ -43,7 +57,12 @@ G 1
 g 1
 k 2
 o 1
-
+*
+**Print the Non-repeated character from string**
+Non repeated character is : f
+Non repeated character is : G
+Non repeated character is : g
+Non repeated character is : o
  * 
  * 
  */

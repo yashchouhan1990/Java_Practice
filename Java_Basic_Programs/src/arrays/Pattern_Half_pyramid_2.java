@@ -22,12 +22,11 @@ public class Pattern_Half_pyramid_2 {
 Output-
 
 1. Stars-
-* 
-* * 
-* * * 
-* * * * 
 * * * * * 
-
+* * * * 
+* * * 
+* * 
+* 
 2. Col-
 0 1 2 3 4 
 1 2 3 4 
