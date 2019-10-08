@@ -6,7 +6,7 @@ public class Remove_junk_character_from_string {
 		// TODO Auto-generated method stub
 		
 		String str= "@#$%&*Yash$%$Chouhan#$#$#1234567890";
-		str= str.replaceAll("[^a-zA-Z]", "");
+		str= str.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(str);
 		
 		String s1= "@#$%&* Selenium !@#@!@#@ tesing !@#@!#@! Automation @#@12334343";
@@ -17,8 +17,9 @@ public class Remove_junk_character_from_string {
 
 /*
 Output-
+^ -- means Not
 
-YashChouhan
+YashChouhan1234567890
 @#$%&*  !@#@!@#@  !@#@!#@!  @#@
 
 */
