@@ -16,9 +16,9 @@ public class String_Permutation_1 {
 			String s2 = "Yahoo";
 			String s3 = "";
 			System.out.println("\nString " + s + ":\nPermutations: " + Permutations(s));
-			System.out.println("\nString " + s1 + ":\nPermutations: " + Permutations(s1));
-			System.out.println("\nString " + s2 + ":\nPermutations: " + Permutations(s2));
-			System.out.println("\nString " + s3 + ":\nPermutations: " + Permutations(s3));
+		//	System.out.println("\nString " + s1 + ":\nPermutations: " + Permutations(s1));
+		//	System.out.println("\nString " + s2 + ":\nPermutations: " + Permutations(s2));
+		//	System.out.println("\nString " + s3 + ":\nPermutations: " + Permutations(s3));
 		}
 	 
 		public static Set<String> Permutations(String str) {
