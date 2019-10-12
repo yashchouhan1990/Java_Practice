@@ -42,6 +42,10 @@ public class Count_Of_each_Character_In_String {
 				{
 					System.out.println("Non repeated character is : "+entry1.getKey());
 				}
+				else
+				{
+					System.out.println("Repeated Character is : "+entry1.getKey());
+				}
 			}
 		
 	}
@@ -59,11 +63,14 @@ k 2
 o 1
 *
 **Print the Non-repeated character from string**
+Repeated Character is : r
+Repeated Character is : s
+Repeated Character is : e
 Non repeated character is : f
 Non repeated character is : G
 Non repeated character is : g
-Non repeated character is : o
- * 
+Repeated Character is : k
+Non repeated character is : o * 
  * 
  */
 /*
