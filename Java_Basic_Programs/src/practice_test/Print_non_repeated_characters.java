@@ -4,13 +4,30 @@ public class Print_non_repeated_characters {
 	
 	public static void main(String args[])
 	{
-		String str= "Iam in love with pune city";
+		String str= "I am in love with my country";
 		String words[]=str.split(" ");
-		
-		for(int i=words.length-1; i>=0; i--)
+
+		int arr[]=new int[words.length];
+		System.out.println(arr.length);
+		for(int i=0; i<words.length; i++)
 		{
-			System.out.print(words[i]+ " ");
+			if(words[i] != " ")
+			{
+			arr[i]= words[i].length();
+			System.out.print(arr[i]);
+			}
 		}
+		
+		System.out.println("***********");
+		for(int k=0; k<arr.length; k++)
+		{
+		//	if(arr[k] != " ")
+		//	{
+			System.out.print(arr[k]);
+		//	}
+		}
+
+		System.out.println("########");
 	}
 }
 

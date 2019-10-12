@@ -20,7 +20,18 @@ public class Count_Words_In_String {
 				count++;
 			}
 		}
-	System.out.println("Number of words in string = " + count);
+		System.out.println("Number of words in string = " + count);
+		
+		//3. Convert string to String array then Count array elements
+		int count_no=0;
+		String[] array=str.split(" ");
+		
+		for(int j=0; j<array.length; j++)
+		{
+			count_no++;
+		}
+		System.out.println("Count of words :"+count_no);
+		
 	}
 }
 
