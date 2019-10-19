@@ -10,6 +10,15 @@ public class test {
         int total = i + j;
 
         System.out.println("Total is " + total);
+        
+        
+        //float num1= 123_456.0;
+        
+        int a=010;
+        int b=07;
+        System.out.println("Value of a :"+a);
+        System.out.println("Value of b :"+b);
+        
     }
 }
 
@@ -17,6 +26,9 @@ public class test {
 /*
 Output-
 Total is 8302
+
+Value of a :8
+Value of b :7
 
 Explaination-
 Execution of program starts from main. Inside main two integer variables i,j are initialized to 7806, 0760 respectively. Another integer variable total is assigned to sum of variables i, j. 7806 is a decimal number (base = 10) and 0760 is octal (base = 8) as any number preceeded with 0 becomes octal. To add both of them they must be made to same base. So convert 0760 to decimal as follows : 
