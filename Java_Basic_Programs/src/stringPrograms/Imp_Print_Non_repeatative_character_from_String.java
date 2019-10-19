@@ -3,7 +3,7 @@ package stringPrograms;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Print_Non_repeatative_character_from_String {
+public class Imp_Print_Non_repeatative_character_from_String {
 
 
 	public static void main(String[] args) {

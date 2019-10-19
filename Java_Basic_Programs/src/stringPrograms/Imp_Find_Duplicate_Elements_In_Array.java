@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class Find_Duplicate_Elements_In_Array {
+public class Imp_Find_Duplicate_Elements_In_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

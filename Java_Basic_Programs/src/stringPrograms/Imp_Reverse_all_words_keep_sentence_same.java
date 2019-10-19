@@ -1,6 +1,6 @@
 package stringPrograms;
 
-public class Reverse_all_words_keep_sentence_same {
+public class Imp_Reverse_all_words_keep_sentence_same {
 
 	public static void main(String[] args) {
 		String str= "My name is yash chouhan";

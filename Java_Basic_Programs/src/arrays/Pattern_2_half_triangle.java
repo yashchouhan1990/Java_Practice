@@ -32,8 +32,8 @@ public class Pattern_2_half_triangle {
 		
 		System.out.println("-----------------------------");
 		
-		// Print all the col of the matrix
-		System.out.println(" Print all the columns of the matrix");
+		// Print all the Index values of the matrix
+		System.out.println(" Print all the Index values of the matrix");
 		for(row=0;row<length;row++)
 		{
 			for(col=0;col<length;col++)

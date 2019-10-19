@@ -8,11 +8,11 @@ public class If_else_operator {
 	            second = 1;
 	        if (first >= 10)
 	            second = 2;
-	     //   System.out.println("y is " + second);
+	     //   System.out.println("y is " + second);			uncomment to see error
 	    }
 }
 
 /*
 Output-
-Compilation error - second variable is not initialized
+Compilation error at line o. 11 - second variable is not initialized.
 */

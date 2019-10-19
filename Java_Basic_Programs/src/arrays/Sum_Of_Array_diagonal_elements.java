@@ -8,7 +8,7 @@ public class Sum_Of_Array_diagonal_elements {
 		int[][] arr= { 
 						{1,2,3},
 							{4,5,6},
-								{7,8,9},
+								{7,8,9}
 										};
 	/*	int[][] arr= new int[][]{
 				{1,2,3},

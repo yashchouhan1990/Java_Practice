@@ -1,6 +1,6 @@
 package stringPrograms;
 
-public class Counte_Letters_In_String {
+public class Count_Letters_In_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

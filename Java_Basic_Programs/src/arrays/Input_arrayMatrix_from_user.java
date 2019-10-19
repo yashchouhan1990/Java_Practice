@@ -30,6 +30,7 @@ public class Input_arrayMatrix_from_user {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }
 /*

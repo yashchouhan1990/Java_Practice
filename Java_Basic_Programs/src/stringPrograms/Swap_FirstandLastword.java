@@ -2,7 +2,7 @@ package stringPrograms;
 
 import java.util.Scanner;
 
-public class ReverserFirstandLastword {
+public class Swap_FirstandLastword {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

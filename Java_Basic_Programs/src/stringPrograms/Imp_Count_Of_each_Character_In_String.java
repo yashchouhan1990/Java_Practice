@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-public class Count_Of_each_Character_In_String {
+public class Imp_Count_Of_each_Character_In_String {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package stringPrograms;
 
-public class Convert_First_Character_Of_AllWordsTo_Uppercase {
+public class Imp_Convert_First_Character_Of_AllWordsTo_Uppercase {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

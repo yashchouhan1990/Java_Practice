@@ -13,6 +13,7 @@ public class Remover_all_space_from_string {
 	System.out.println("String after removing space:-- "+ s);
 
 	System.out.println("************");
+	
 	//2. using array concept
 	String str = "Lets try other way";
 	System.out.println("Original String:-- "+ str);
