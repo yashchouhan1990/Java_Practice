@@ -9,7 +9,7 @@ class Alpha
   
 public class On_Inheritence_Concept extends Alpha 
 { 
-    public On_Inheritence_Concept()  {  System.out.print("On_Inheritence_Concept ");  } 
+    public On_Inheritence_Concept()  {  System.out.print("beta ");  } 
   
     void go() 
     { 

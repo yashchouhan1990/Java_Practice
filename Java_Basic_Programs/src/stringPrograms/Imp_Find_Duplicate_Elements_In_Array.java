@@ -27,10 +27,10 @@ public class Imp_Find_Duplicate_Elements_In_Array {
 		
 		//2. using HashSet- It store unique values. Time Complexity is O(n)
 		
-		Set<String> store= new HashSet<String>();
+		Set<String> set= new HashSet<String>();
 		for(String name:arr)
 		{
-			if(store.add(name)==false)
+			if(set.add(name)==false)
 			{
 				System.out.println("Duplicate Element : "+ name);
 			}
@@ -40,20 +40,20 @@ public class Imp_Find_Duplicate_Elements_In_Array {
 		
 		
 		//3. Using HashMap: 
-		Map<String, Integer> storeMap= new HashMap<String, Integer>();
+		Map<String, Integer> map= new HashMap<String, Integer>();
 		
 		for(String name : arr){
-			Integer count= storeMap.get(name);
+			Integer count= map.get(name);
 			if(count == null){
-				storeMap.put(name, 1);
+				map.put(name, 1);
 			}
 			else{
-				storeMap.put(name, ++count);
+				map.put(name, ++count);
 			}
 		}
 		
 		// get the values from the HashMap
-		Set<Entry<String, Integer>> entrySet= storeMap.entrySet();
+		Set<Entry<String, Integer>> entrySet= map.entrySet();
 		for(Entry<String, Integer> entry: entrySet){
 			if(entry.getValue()>1){
 				System.out.println("Duplicate Element : "+entry.getKey());

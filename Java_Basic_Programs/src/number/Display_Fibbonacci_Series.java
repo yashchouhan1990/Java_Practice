@@ -24,6 +24,9 @@ public class Display_Fibbonacci_Series {
 /*
 Output-
 Enter the range of the Fibbonacci series
+fab=0;
+a=0;
+b=1
 10
 0 1 2 3 5 8 13 21 34 55 89 
 */

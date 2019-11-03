@@ -20,10 +20,11 @@ public class String_SubSequence_And_subString {
 /*
 
 Last 4 Character of the String :: com
-First 4 Character of the String :: www
+First 4 Character of the String :: www.
 Print website name :: journsldev
 Print website name :: journsldev
- subString == subSequence ?? : false     // subString Returns a string that is a substring of this string where subSequence Returns a character sequence that is a subsequence of this sequence.
+ subString == subSequence ?? : false     // subString Returns a string that is a substring of this string where
+  											subSequence Returns a character sequence that is a subsequence of this sequence.
  subString equals subSequence ?? :true 
 
 == checks for reference of address

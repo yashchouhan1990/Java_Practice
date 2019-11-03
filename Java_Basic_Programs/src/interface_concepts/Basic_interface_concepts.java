@@ -26,6 +26,10 @@ public class Basic_interface_concepts implements Drawable_basic {
 		db.draw();
 		Basic_interface_concepts bcs= new Basic_interface_concepts();   // This works
 		bcs.draw();
+		System.out.println("Min value:"+ db.MIN);
+		//or
+		System.out.println("Min value:"+ MIN);  //we can call directly as it is on static type
+		// MIN++;  ---> compile time error as MIN is static field
 	}
 }
 /*

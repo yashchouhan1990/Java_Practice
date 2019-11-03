@@ -26,19 +26,29 @@ public class Static_Method_Overriden_concept extends Author
     public static void main(String[] args) 
     { 
         Author a = new Static_Method_Overriden_concept(); 
-        a.write(); 
+        a.write();			//case1
+        
+        Writer w = new Writer();
+        w.write(); 	//case2
+        
     } 
    
 }
 
 /*
+case1
+Writing book
+
+case2
+Writing...
+
 Options :
 A) Writing…
 B) Writing book
 C) Writing code
 D) Compilation fails
 
-Answer : B) Writing book
+Answer : B) Writing book		//case1 
 Explanation : Since static methods can’t be overridden, it doesn’t matter which class object is created. 
 As a is a Author referenced type, so always Author class method is called. If we remove write() method from 
 Author class then Writer class method is called, as Author class extends Writer class.

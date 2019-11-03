@@ -8,7 +8,7 @@ interface Showable1 extends Printable1{
 	void show();  
 }  
 
-public class TestInterface4 implements Showable1{  
+public class MultiLevel_Interface_inheritence implements Showable1{  
 	public void print(){
 		System.out.println("Hello");}
 	
@@ -16,7 +16,7 @@ public class TestInterface4 implements Showable1{
 		System.out.println("Welcome");}  
   
 	public static void main(String args[]){  
-	TestInterface4 obj = new TestInterface4();  
+	MultiLevel_Interface_inheritence obj = new MultiLevel_Interface_inheritence();  
 	obj.print();  
 	obj.show();  
 	}  

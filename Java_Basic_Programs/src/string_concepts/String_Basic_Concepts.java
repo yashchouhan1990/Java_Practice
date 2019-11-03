@@ -5,7 +5,16 @@ public class String_Basic_Concepts {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+	    String s1 = "Switch on the button";
+	    int n1 = s1.indexOf('o');
+	    System.out.println("n1 = " + n1);
+	    int n2 = s1.indexOf('o', 10);
+	    System.out.println("n2 = " + n2);
+	    int n3 = s1.indexOf("on");
+	    System.out.println("n3 = " + n3);
+	    int n4 = s1.indexOf("on",12);
+	    System.out.println("n4 = " + n4);
+
 		
 	}
 
@@ -14,12 +23,15 @@ public class String_Basic_Concepts {
 /*
 
 Characters and String in Java
-We interact with each other through words and sentences. So, there must be some way by which Java should also play with these words or sentences. And that is exactly what we are going to do in this chapter.
+We interact with each other through words and sentences. So, there must be some way by which Java 
+should also play with these words or sentences. And that is exactly what we are going to do in this 
+chapter.
 
 Characters
 You all must be knowing about characters. In Java, the data type to store characters is char.
 
-In Java, characters are represented using Unicode. Unicode is an international character set representing all the characters.
+In Java, characters are represented using Unicode. Unicode is an international character set representing
+ all the characters.
 
 In Java, char ranges from 0 to 65,535.
 
@@ -39,7 +51,8 @@ Output
 Here, c2 is assigned a value 88 which is the Unicode value for letter 'X'.
 
 Strings
-We can think of a string as a collection of characters. In other words, it is an array of characters, like "Robin" is a string.
+We can think of a string as a collection of characters. In other words, it is an array of characters,
+ like "Robin" is a string.
 
 In Java programming, strings are objects. Before understanding it, let's first see how to declare a string.
 
@@ -53,18 +66,23 @@ Here, s is a string having the value Hello. s is an object of the class String.
 
 Thus 's' is an String object having its value "Hello".
 
-As stated that string is an array of characters, in the second example we are declaring string as an array of characters.
+As stated that string is an array of characters, in the second example we are declaring string as an array
+ of characters.
 
-We can also create String objects using the new keyword. Here, the new keyword is used to create an object 's' of the class String. The following codes are used to create a String object 's' having its value "Hello".
+We can also create String objects using the new keyword. Here, the new keyword is used to create an 
+object 's' of the class String. The following codes are used to create a String object 's' having its 
+value "Hello".
 
 String s = new String("Hello");
 
 char ch = {'h','e','l','l','o'};
 String s = new String(ch);
 
-For now, there is no need to go into the details of objects and classes as we will learn more about these later.
+For now, there is no need to go into the details of objects and classes as we will learn more about
+ these later.
 
-Now, let's see an example that assigns and prints the values of two strings, one using the new keyword and the other without it.
+Now, let's see an example that assigns and prints the values of two strings, one using the new keyword 
+and the other without it.
 
 class C2{
 public static void main(String[] args){
@@ -76,7 +94,9 @@ public static void main(String[] args){
 }
 Output
 String class methods
-There are many methods of a String object in Java which perform many important operations. For that, we first need to include java.lang.String class in our program. To do this, we need to write the following code in the very beginning of our program.
+There are many methods of a String object in Java which perform many important operations. 
+For that, we first need to include java.lang.String class in our program. To do this, we need to
+ write the following code in the very beginning of our program.
 
 import java.lang.String;
 
@@ -146,7 +166,10 @@ class C5{
     System.out.println(s3);
   }
 }
-Output
+Output-
+brella
+brel
+
 substring(2) returned a new string from the character at the second index i.e. b till last. But substring(2,6) returned a new string from the character at index 2 i.e. b till the character at index 6 i.e. l.
 
 boolean isEmpty()
@@ -161,7 +184,10 @@ class C6{
     System.out.println(s2.isEmpty());
   }
 }
-Output
+Output-
+false
+true
+
 String concat(String str)
 
 It concatenates or links or joins two strings.
@@ -173,7 +199,8 @@ class C7{
     System.out.println(s1);
   }
 }
-Output
+Output- CodesDope
+
 String replace(char oldChar, char newChar)
 
 It replaces old characters having the same value as oldChar with a new character having the value same as that of newChar in a string.
@@ -185,19 +212,21 @@ class C8{
     System.out.println(s2);
   }
 }
-Output
+Output-  WelcDme tD CDdesdDpe
+
 String replaceAll(String oldSubstring, String newSubstring)
 
 It replaces old substring having the same value as oldCSubstring with a new substring having the value same as that of newSubstring in a string.
 
 class C9{
   public static void main(String[] args){
-    String s1 = "Switch on the button";
+    String s1 = "Switch on the button o and n";
     String s2 = s1.replaceAll("on","ui");
     System.out.println(s2);
   }
 }
-Output
+Output- Switch ui the buttui o and n
+
 String toLowerCase() or String toUpperCase()
 
 These return string in lowercase and uppercase respectively.
@@ -224,12 +253,16 @@ class C11{
     int n2 = s1.indexOf('o', 10);
     System.out.println("n2 = " + n2);
     int n3 = s1.indexOf("on");
-    System.out.println("n = " + n3);
+    System.out.println("n3 = " + n3);
     int n4 = s1.indexOf("on",12);
     System.out.println("n4 = " + n4);
   }
 }
-Output
+Output-
+n1 = 7
+n2 = 18
+n3 = 7
+n4 = 18
 boolean contains(CharacterSequence t)
 
 It checks if a string contains the specified character sequence.
@@ -267,7 +300,8 @@ class C13{
       System.out.println("Different objects");
   }
 }
-Output
+OutputDifferent objects
+
 Since s1 and s2 are different objects having different memory locations, therefore the condition (s1 == s2) is false.
 
 Consider another example.

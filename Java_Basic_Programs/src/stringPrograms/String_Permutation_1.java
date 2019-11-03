@@ -33,6 +33,7 @@ public class String_Permutation_1 {
 			char firstChar = str.charAt(0);
 			String rem = str.substring(1);
 			Set<String> words = Permutations(rem);
+			
 			for (String newString : words) {
 				for (int i = 0; i <= newString.length(); i++) {
 					setResult.add(CharAdd(newString, firstChar, i));
@@ -70,7 +71,7 @@ Permutation of String in Java Algorithm
 To get all the permutations, we will first take out the first char from 
 String and permute the remaining chars.
 
-If String = “ABC”
+If String = ï¿½ABCï¿½
 First char = A and remaining chars permutations are BC and CB.
 
 Now we can insert first char in the available positions in the permutations.

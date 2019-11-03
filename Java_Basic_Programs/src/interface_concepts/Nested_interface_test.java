@@ -22,6 +22,8 @@ public class Nested_interface_test implements Printable_1 {
 		Printable_1 pp= new Nested_interface_test();
 		pp.print();
 		
+		// pp.msg();		--> this line gives compile time error
+		
 		Nested_interface_test nes= new Nested_interface_test();
 		nes.msg();
 	}

@@ -16,7 +16,7 @@ public class Q15_Exception_Handling_Concept {
 		// Case 2 :
 				try {
 					System.out.println("Inside 2nd Try block");
-					throw new NullPointerException("Hello");
+					throw new NullPointerException("Heyy");
 				}
 				catch (ArithmeticException e) {
 					System.out.println("Inside 2nd Catch Block");
@@ -30,7 +30,7 @@ Inside 1st Try block
 Inside 1st Catch Block
 
 Inside 2nd Try block
-Exception in thread "main" java.lang.NullPointerException: Hello
+Exception in thread "main" java.lang.NullPointerException: Heyy
 
 Case2: is no executed as exception is thrown inside 2nd try block
 

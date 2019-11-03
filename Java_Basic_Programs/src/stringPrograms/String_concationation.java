@@ -10,6 +10,10 @@ public class String_concationation {
 		String s= "Knowledge";
 		s= s.concat(" Is Everything");
 		System.out.println("Output of s : "+s);
+		
+		StringBuffer sb = new StringBuffer("Yash");
+		sb.append(" Chouhan");
+		System.out.println("StringBuffer Output: "+ sb);
 	}
 
 }
@@ -18,4 +22,7 @@ public class String_concationation {
 Output-
 Output of str : java
 Output of s : Knowledge Is Everything
+
+StringBuffer Output: Yash Chouhan
+
 */
