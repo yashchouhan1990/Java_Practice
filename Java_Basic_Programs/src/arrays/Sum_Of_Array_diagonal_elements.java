@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.ArrayList;
+
 public class Sum_Of_Array_diagonal_elements {
 
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Sum_Of_Array_diagonal_elements {
 				{4,5,6},
 				{7,8,9}
 						};
-	*/	
+		
 		int size=arr.length;
 		System.out.println("Size of Array=" + size);
 		for(int row=0; row<arr.length; row++)
@@ -40,6 +42,28 @@ public class Sum_Of_Array_diagonal_elements {
 		System.out.println("Sum of left Diagonal elements="+lsum); 
 		System.out.println("Sum of right Diagonal elements="+rsum);
 		System.out.println("Sum of both diagonals="+(lsum+rsum));
+		
+		
+		String str= "2 4 1";
+		String arry[]=str.split(" ");
+		
+		
+		for (int i=0; i<arry.length;i++)		{
+			for (int j=i; j<arry.length;j++)		{
+				if(arr[i]>arr[j])
+					arr[]
+			}
+			
+			}
+			
+			if(arr[i]>largest)
+				largest=arr[i];
+			else if(arr[i]<smallest)
+				smallest=arr[i];
+		}
+*/
+		
+		
 	}
 }
 /*
