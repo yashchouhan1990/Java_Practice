@@ -33,7 +33,7 @@ public class Test_Overloading {
 	System.out.println("Sum of two float number is : " + to.adder(3, 6));
 	// calling static methods via class name
 	System.out.println("Sum of two number is : "+ Test_Overloading.summer(4, 7));
-	System.out.println("Sum of three number is : "+ Test_Overloading.summer(4, 7, 8));
+	System.out.println("Sum of three number is : "+ summer(4, 7, 8));				//static method can be called directly with object
 	}
 }
 

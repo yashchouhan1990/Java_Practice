@@ -29,6 +29,17 @@ public class HashMap_Sort_KeyBasis {
 		System.out.println("Sorted Map: "+treemap);
 		//output- Sorted Map: {asset=2, cost=3, data=4, sample=5, test=1}
 		
+		Map<Integer, String> mp= new HashMap<Integer, String>();
+		mp.put(1,"test");
+		mp.put(6,"sample");
+		mp.put(5,"data");
+		mp.put(2,"asset");
+		
+		System.out.println("Unsorted map :"+mp);
+		
+		Map<Integer, String> treemap1= new TreeMap<Integer, String>(mp);
+		System.out.println("Sorted Map: "+treemap1);
+		// Sorted Map: {1=test, 2=asset, 5=data, 6=sample}
 	}
 	
 }

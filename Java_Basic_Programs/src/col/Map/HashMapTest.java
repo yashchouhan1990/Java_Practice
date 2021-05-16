@@ -38,7 +38,7 @@ public class HashMapTest {
 		map.put("tom", null);
 		
 		map.put(null, 200);			// HashMap allows adding of only one Null key and multiple Null values
-		map.put(null, 300);
+		map.put(null, 300);			// last added value of key is considered
 		System.out.println(map);
 		
 		// Output- {null=300, tom=null, yash=null}

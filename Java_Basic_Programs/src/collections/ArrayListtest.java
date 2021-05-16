@@ -6,7 +6,11 @@ import java.util.Iterator;
 public class ArrayListtest {
 
 	public static void main(String[] args) {
-	//	ArrayList arylist= new ArrayList();
+		ArrayList<String> arylist= new ArrayList<String>(1);
+		arylist.add("autoo");
+		arylist.add("oo");
+		System.out.println(arylist.size());
+		
 		ArrayList<String> al= new ArrayList<String>();
 		al.add("Yash");
 		al.add("Harsh");
