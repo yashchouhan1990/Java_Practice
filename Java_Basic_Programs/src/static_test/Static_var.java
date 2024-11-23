@@ -16,3 +16,10 @@ public class Static_var extends base {
 	}
 
 }
+
+/*
+Output-
+Result : 7
+Result : 7
+
+*/

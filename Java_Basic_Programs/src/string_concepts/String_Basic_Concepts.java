@@ -14,10 +14,8 @@ public class String_Basic_Concepts {
 	    System.out.println("n3 = " + n3);
 	    int n4 = s1.indexOf("on",12);
 	    System.out.println("n4 = " + n4);
-
 		
 	}
-
 }
 
 /*
